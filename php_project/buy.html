@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Order Confirmation page</title>
+    <link rel="stylesheet" href="style6.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+<body>
+	<div class="buy-section">
+		<div class="buy-form">
+			<center><h2>Order Confirmation page</h2></center>
+			<form action="buy.php" method="post" name="buy">
+				<label><br>Enter Your Email</label>
+				<input type="email" name="email" required/>
+				<label>Enter Your Gender</label>
+				<input type="text" name="gender">
+        <label>Enter Your Village</label>
+        <input type="text" name="village">
+        <label>Enter Your Mandal</label>
+        <input type="text" name="mandal">
+        <label>Enter Your District</label>
+        <input type="text" name="district">
+        <label>Enter Your Mobile Number</label>
+        <input type="tel" name="mobile" pattern="[0-9]{10}" required>
+        <label>Enter Your Pincode</td>
+        <input type="text" name="pin">
+        <label>Enter Your Country</label>
+				<input type="text" name="country">
+        <center><input type="submit" value="Submit"></center>
+        <center><input type="reset" value="Reset"</center>	
+			</form>	
+		</div>
+	</div>
+</body>
+</html>

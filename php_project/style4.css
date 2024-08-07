@@ -1,0 +1,121 @@
+.title
+{
+    text-align:center;
+    font-size:3rem;
+    padding:.5rem;
+    color:rgb(236,35,119);
+}
+.title span
+{
+    color:limegreen;
+}
+body
+{
+background-image: url(img/banner6.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 350vh;
+align-items: center;
+color:;
+font-size: 20px;
+font-weight: 500;       
+}
+.cake-product .inner-cake-row
+{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.cake-product .inner-cake-col
+{
+    max-width:350px;
+    background:#fff;
+    height:27rem;
+    flex:1 1 21rem;
+    padding:1.2rem;
+    margin:1.5rem;
+    border-radius:1rem;
+    box-shadow:0 .3rem .6rem rgb(236,35,119);
+    text-align:center;
+}
+.cake-product .inner-cake-col:hover
+{
+    transform:translateY(-.5rem);
+    transition:.5s ease;
+}
+.cake-product .inner-cake-col img
+{
+    height: 15rem;
+    width:100%;
+    object-fit:cover;
+}
+.cake-product .inner-cake-col .cake-price p
+{
+    position:absolute;
+    width:2.7rem;
+    height:auto;
+    margin-top:-1.5rem;
+    margin-left:9rem;
+    padding:.8rem .1rem;
+    text-align:center;
+    font-size:1.2rem;
+    border:none;
+    border-radius:5rem;
+    background:lightgray;
+    color:#000;
+}
+.cake-star {
+    color:#FFDF00;
+    position:relative;
+    margin-top:1.5rem;
+  }
+.cake-product .inner-cake-col h2
+{
+    padding:.5rem 0;
+    color:darkblue;
+    font-size:1.6rem;
+    letter-spacing:.1rem;
+}
+.cake-product .inner-cake-col h3
+{
+    color:gray;
+    font-size:1.2rem;
+    font-weight:500;
+}
+.cake-product .inner-cake-col p
+{
+    color:gray;
+    font-size:1rem;
+    font-weight:500;
+    padding:.0rem 0;
+}
+@media(max-width:750px)
+{
+    .title{
+        text-align:center;
+        font-size:2rem;
+    }
+}
+button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 10px 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: red; 
+}
+.ft
+{
+background-color: black;
+color:red;
+}
+
